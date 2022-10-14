@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding:0;
+    background: linear-gradient(#A5C9CA, #E7F6F2) no-repeat center center fixed;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:20vh
+}
+.formControl{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    background-color: #395B64;
+    width: 400px;
+    height: 370px;
+    box-shadow: 1px 1px 6px 6px #1f1c1c;
+    border-radius: 4px;
+    color: #EEEEEE;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap:30px;
+}
+.usernameSection{
+    display: flex;
+    justify-content:space-between;
+}
+.emailSection{
+    display: flex;
+    justify-content:space-between;
+}
+.passwordSection{
+    display: flex;
+    justify-content:space-between;
+}
+.confirmPasswordSection{
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    margin: auto auto;
+    width: 8rem;
+    height: 2rem;
+    background: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    border-radius: 4px;
+    border: none;
+}
+button:hover{
+    background: #E7F6F2;
+    color: #000000;
+    border: 1px solid #000000;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+}
