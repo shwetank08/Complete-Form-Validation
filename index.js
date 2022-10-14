@@ -33,6 +33,7 @@ btn.addEventListener("click", (e) => {
     display("User signed up")
   }else{
     display("Password don't match")
+    return;
   }
   email.value = "";
   userName.value = "";
